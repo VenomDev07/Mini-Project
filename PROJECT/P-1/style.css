@@ -1,0 +1,89 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 13%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: block;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    overflow:visible;
+}
+
+nav button{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: gainsboro;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button a{
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+}
+
+.container{
+    height: 100vh;
+}
+
+.container .box-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container .box-con .box{
+    margin-top: 7px;
+    text-align: center;
+    background-color: lavender;
+    height: 529px;
+    border-radius: 20px;
+}
+
+.container .span-con{
+    height: 350px;
+    width: 500px;
+    background-color: lavender;
+}
+
+.container .box-con .box .span-con .button{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-top: 150px;
+    cursor: pointer;
+}    
+
+#grey{
+    background-color: gray;
+}
+
+#white{
+    background-color: white;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+h1{
+    font-size: large;
+}

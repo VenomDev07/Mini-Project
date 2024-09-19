@@ -1,0 +1,74 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 14%);
+    font-size: 500;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: block;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    overflow:visible;
+}
+
+nav button{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: gainsboro;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button a{
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+}
+
+.container{
+    height: 100vh;
+}
+
+.container .box-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+} 
+
+.container .box-con .box{
+    height: 450px;
+    width: 400px;
+    background-color: lavender;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box-con .box .time-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock{
+    height: 40px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
